@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+
+# Training artifacts and model binaries
+runs/
+exports/
+*.pt
+*.pth
+*.pth.tar
+*.onnx
+
+# Datasets are not redistributed with the code
+data/train/
+data/test/
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
+
+# Tool caches
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/

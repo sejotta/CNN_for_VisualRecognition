@@ -1,0 +1,68 @@
+Academic Portfolio License (APL) v1.0
+Copyright (c) 2026 @sejotta (https://github.com/sejotta)
+
+This project was developed as the third practical assignment (P3) of the
+Computer Vision course at the Escuela de Ingeniería y Arquitectura (EINA),
+Universidad de Zaragoza. It was supervised, corrected and guided by the
+professors of that course. Their teaching, feedback and corrections made this
+work possible. The academic credit for that guidance belongs to the Computer
+Vision teaching team at EINA, Universidad de Zaragoza.
+
+1. FREE USE FOR LEARNING
+
+You are free to read, study, run and modify this software for personal
+learning, teaching and non-commercial academic research, provided that you
+comply with the attribution and acknowledgement conditions below.
+
+2. ATTRIBUTION
+
+Any copy, modification or work that uses this software must keep this licence
+and clearly credit:
+
+  - the original project, "CNN for Visual Recognition" by @sejotta
+    (https://github.com/sejotta/CNN_for_VisualRecognition); and
+  - the Computer Vision course at EINA, Universidad de Zaragoza, and its
+    teaching team, as the academic supervisors of the project.
+
+A suitable attribution is:
+
+  "Based on the CNN for Visual Recognition project by @sejotta, developed for
+  the Computer Vision course at EINA, Universidad de Zaragoza, under the
+  supervision of its professors."
+
+3. PERMISSION FOR REUSE
+
+Reusing this software outside the scope of Section 1 — including copying
+substantial portions of the code into another project, redistributing it,
+using it commercially, or publishing a derivative work — requires prior
+permission from the copyright holder and from the Computer Vision teaching
+team at EINA, Universidad de Zaragoza.
+
+Permission requests should be made by opening an issue in the original
+repository:
+
+  https://github.com/sejotta/CNN_for_VisualRecognition/issues
+
+4. NO ENDORSEMENT
+
+You may not claim that this project, its author or the Computer Vision teaching
+team endorses your use or derivative work without prior permission.
+
+5. NO WARRANTY
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+6. SCOPE
+
+This licence applies only to the source code and documentation in this
+repository. It does not apply to the images used to train or test the model:
+those images are not distributed here and remain subject to their original
+copyright and terms of use.
+
+This is a custom academic licence, not an OSI-approved open-source licence.

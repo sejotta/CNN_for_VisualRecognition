@@ -1,0 +1,23 @@
+{
+  "model": "tf_efficientnet_lite0.in1k",
+  "display_name": "EfficientNet-Lite0",
+  "test_images": 95,
+  "class_names": [
+    "Brooklyn_Bridge",
+    "Eiffel_Tower",
+    "Golden_Gate",
+    "Great_Wall",
+    "Sagrada_Familia",
+    "Tokio_Tower"
+  ],
+  "confusion_matrix": [
+    [16, 0, 0, 0, 0, 1],
+    [0, 22, 0, 0, 0, 0],
+    [0, 0, 12, 0, 0, 0],
+    [0, 0, 0, 17, 0, 0],
+    [0, 0, 0, 0, 15, 0],
+    [0, 4, 0, 0, 0, 8]
+  ],
+  "source": "Recorded from the final P3 run; held-out 95-image Instagram-style test set.",
+  "notes": "Rows are true labels, columns are predicted labels."
+}

@@ -1,0 +1,7 @@
+# Export on the training machine
+onnx>=1.16
+
+# Inference on a PC or Raspberry Pi
+onnxruntime>=1.18
+numpy>=1.24
+Pillow>=10.0

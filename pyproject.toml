@@ -1,0 +1,54 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "landmark-classifier"
+version = "1.0.0"
+description = "Two-phase transfer learning for six-class landmark recognition"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {file = "LICENSE"}
+authors = [{ name = "sejotta", url = "https://github.com/sejotta" }]
+keywords = [
+    "computer-vision",
+    "pytorch",
+    "timm",
+    "transfer-learning",
+    "image-classification",
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Scientific/Engineering :: Image Recognition",
+]
+dependencies = [
+    "torch>=2.2",
+    "torchvision>=0.17",
+    "timm>=1.0",
+    "numpy>=1.24",
+    "Pillow>=10.0",
+    "matplotlib>=3.8",
+    "scikit-learn>=1.3",
+]
+
+[project.optional-dependencies]
+deploy = ["onnx>=1.16", "onnxruntime>=1.18"]
+dev = ["ruff>=0.6", "pytest>=8.0"]
+
+[project.scripts]
+landmark-train = "landmark_classifier.train:main"
+landmark-evaluate = "landmark_classifier.evaluate:main"
+landmark-predict = "landmark_classifier.predict:main"
+landmark-export = "landmark_classifier.export_onnx:main"
+
+[project.urls]
+Repository = "https://github.com/sejotta/CNN_for_VisualRecognition"
+Issues = "https://github.com/sejotta/CNN_for_VisualRecognition/issues"
+
+[tool.setuptools.packages.find]
+include = ["landmark_classifier*"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
